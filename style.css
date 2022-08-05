@@ -1,0 +1,69 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+h1 {
+    font-size: 4em;
+}
+
+body {
+    background-image: url("images/survey.jpg");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-attachment: fixed;
+    background-size: cover;
+}
+
+input,
+select {
+    height: 30px !important;
+    width: 200px;
+}
+
+.container {
+    width: 60%;
+    background-color: white;
+    opacity: 0.8;
+    margin: 60px auto;
+    padding: 50px;
+    border-radius: 5px;
+    -moz-box-shadow: 3px 3px 5px 1px;
+    -webkit-box-shadow: 3px 3px 5px 1px;
+    box-shadow: 3px 3px 1px 1px;
+
+}
+
+label {
+    display: block;
+    margin: 10px 0;
+}
+
+p {
+    font-weight: bold;
+    margin: 35px 0 10px
+}
+
+input[type="checkbox"],
+input[type="radio"] {
+    position: absolute;
+    width: 20px;
+    height: 20px;
+    margin-top: -2.5px;
+    margin-left: -25px;
+}
+
+input[type="submit"],
+input[type="reset"] {
+    font-weight: bold;
+    margin:5px;
+}
+
+.radio-group {
+    margin-left: 30px;
+}
+textarea{
+    padding:5px
+}
