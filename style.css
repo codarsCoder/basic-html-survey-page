@@ -17,8 +17,7 @@ body {
     background-size: cover;
 }
 
-input,
-select {
+input, select {
     height: 30px !important;
     width: 200px;
 }
